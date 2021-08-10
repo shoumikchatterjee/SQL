@@ -7,4 +7,4 @@ GROUP BY Major 'removes duplicate Major column values
 HAVING 'USD' 'selects only Major column values with USD
 ORDER BY Major 'results show up in alphabetical order after USD in name
 INNER JOIN 'https://tradingeconomics.com/forecast/currency' AS b 'joins forecast table
-  ON a.Major = b.Major 'criterion to join tables
+ ON a.Major = b.Major 'criterion to join tables
